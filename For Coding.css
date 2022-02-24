@@ -18,24 +18,25 @@ header {
 	position: relative;
 }
 .nav-area {
-	float: right;
+	display: flex;
 	list-style: none;
-	margin-top: 30px;
+	margin: 20px 0px;
 }
 .nav-area li {
-	display: inline-block;
+font-family: century;
+font-size: 1.1rem;
+font-weight: bold;
 }
 .nav-area li a {
-	color: #fff;
 	text-decoration: none;
-	padding: 5px 20px;
-	font-family: poppins;
-	font-size: 16px;
-	text-transform: uppercase;
+	color: white;
+	padding: 8px 25px;
+	transition: all .5s ease-in;
 }
 .nav-area li a:hover {
-	background: #fff;
-	color: #333;
+background-color: white;
+color: black;
+box-shadow: 0 0 10px rgb(206, 1,1);
 }
 .logo {
 	float: left;
@@ -47,13 +48,14 @@ header {
 
 .MOIMA{
 	color: #fff;
-	float: left;
+	float: right;
+	position: top;
 }
 .welcome-text {
 	position: absolute;
 	width: 600px;
 	height: 300px;
-	margin: 20% 30%;
+	margin: 27% 18%;
 	text-align: center;
 }
 .welcome-text h1 {
@@ -118,17 +120,10 @@ header {
 
 /*Contact Coding*/
 
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
-
 *{
   margin: 0;
   padding: 0;
   font-family: 'Ubuntu', sans-serif;
-}
-
-body{
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/YjcJg24M/aa.jpg);
-	height: 100vh;
 }
 
 .contact-us{
