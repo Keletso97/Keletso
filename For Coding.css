@@ -20,7 +20,7 @@ header {
 .nav-area {
 	display: flex;
 	list-style: none;
-	margin: 20px 0px;
+	margin: 10px 0px;
 }
 .nav-area li {
 font-family: century;
@@ -29,7 +29,7 @@ font-weight: bold;
 }
 .nav-area li a {
 	text-decoration: none;
-	color: white;
+	color: lightblue;
 	padding: 8px 25px;
 	transition: all .5s ease-in;
 }
